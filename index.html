@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body ng-app="MyApp">
+      <div ng-view></div>
+
+      <script src="js/angular.min.js"></script>
+      <script src="js/angular-route.min.js"></script>
+      <script>
+        window.MyApp = angular.module('MyApp', ['ngRoute'])
+      </script>
+      <script src="js/config.js"></script>
+      <script src="js/countdown.js"></script>
+      <script type="text/ng-template" src="countdown.html" id="countdown.html"></script>
+    </body>
+</html>
